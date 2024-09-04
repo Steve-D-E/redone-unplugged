@@ -131,11 +131,11 @@
   }
  
   img {
- 
+    width: 100%;
   }
  
   figure {
- 
+    margin: 0;
   }
  
   address {
@@ -170,6 +170,10 @@
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+  }
+
+  header figure {
+    width: 60%;
   }
   
   .header-divider {
@@ -238,6 +242,10 @@
   /* Hero Area */
   
   .hero-area {
+    background: url(../img/unplugged-retreat.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
   }
@@ -286,7 +294,9 @@
   /* Features */
   
   .features {
-    display: flex;
+    background: url('../img/unplugged-retreat-features.jpg');
+    background-size: cover;
+    background-position: center;display: flex;
     justify-content: center;
   }
   
